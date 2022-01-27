@@ -4,6 +4,14 @@
 /* diffrent style file for components */
 
 @import url("./cards/cards.css");
+@import url("./badge/badge.css");
+
+/* global variables */
+
+:root {
+  --primary-color: #f1f5f9;
+  --card-background: #e2e8f0;
+}
 
 /* styling */
 body,
@@ -11,7 +19,7 @@ html {
   margin: 0;
   padding: 0;
   /* box-sizing: border-box; */
-  background-color: lightblue;
+  background-color: var(--primary-color);
   font-family: "Questrial", sans-serif;
 }
 
@@ -19,6 +27,13 @@ html {
   text-align: center;
   max-width: 900px;
   margin: auto;
+}
+
+.backgroundDark {
+  background-color: var(--card-background);
+  box-shadow: 3px 2px 3px 0px #e8e5e3;
+  border-radius: 0.4rem;
+  padding: 1rem;
 }
 
 .container-fluid {
