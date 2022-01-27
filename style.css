@@ -1,0 +1,270 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+/* styling */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  background-color: lightblue;
+  font-family: "Questrial", sans-serif;
+}
+
+.container {
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.container-fluid {
+  text-align: left;
+}
+
+.p-2 {
+  padding: 0.2rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.underline {
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+.cards-layout {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* gap: 50px; */
+}
+
+/* cards */
+.card {
+  /* border: 1px solid black; */
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: left;
+  width: 250px;
+  margin: 0.3rem;
+}
+
+.card-text {
+  padding: 0.5rem;
+  margin: 0.5rem 0rem;
+  border-radius: 4px;
+}
+
+.card1-img {
+  width: 250px;
+}
+
+.card2 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 550px;
+  height: 300px;
+}
+
+.card2-img {
+  width: 200px;
+}
+
+.card2-size-highlight {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 2px;
+}
+
+.card-text-right {
+  margin: 0.5rem 1rem;
+  flex-direction: column;
+}
+
+.card-price {
+  color: #6b7280;
+}
+
+.card-btns {
+  border: 0;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: #334155;
+  color: #fff;
+}
+
+.card-btns:hover {
+  opacity: 90%;
+}
+
+/* badges */
+/* .relative {
+  position: relative;
+  width: 30px;
+  margin: 0.5rem;
+}
+.abs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.8rem;
+  background-color: blueviolet;
+  color: white;
+  padding: 0.1rem;
+} */
+
+/* chips section */
+
+.chips-section {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chips {
+  background-color: blueviolet;
+  color: white;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.4rem;
+}
+
+/* drawer */
+
+.drawer-parent {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  min-height: 100vh;
+  overflow: none;
+}
+
+.sidebar {
+  background-color: aquamarine;
+  padding: 0.5rem 0.7rem;
+  overflow: scroll;
+}
+
+.sidebar-heading {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sidebar-text-sm {
+  font-size: 10px;
+}
+
+.drawer-main {
+  background-color: white;
+}
+
+.drawer-heading {
+  background-color: blueviolet;
+  padding: 0.5rem;
+}
+
+.drawer-content {
+  padding: 0.5rem 0.7rem;
+  height: 90vh;
+  overflow: scroll;
+}
+
+.drawer-styling {
+  padding: 0.5rem 0.7rem;
+  margin: 0.2rem;
+}
+
+.drawer-styling:hover {
+  background-color: rgb(159, 107, 207);
+  color: #fff;
+  filter: drop-shadow(0 0 0.75rem rgb(134, 123, 125));
+}
+
+/* toast */
+
+.toast-main {
+  position: relative;
+}
+
+.toast-heading {
+  background-color: blueviolet;
+  padding: 0.5rem;
+}
+
+.toast-content {
+  padding: 0.5rem 0.7rem;
+  position: relative;
+}
+
+.toast {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  background-color: black;
+  color: #fff;
+  margin: 0rem 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.15rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.toast p {
+  margin: 0.4rem 0.3rem;
+}
+
+.toast svg {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  color: #334155;
+  border-radius: 50%;
+  margin: 0rem 0.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .card2 {
+    flex-wrap: wrap;
+    height: auto;
+    margin: 1rem;
+  }
+
+  .card2-img {
+    width: 100%;
+    /* object-fit: cover; */
+    /* padding: 1rem; */
+    /* border-radius: 50%; */
+  }
+
+  .drawer-parent {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    display: none;
+  }
+}
