@@ -4,6 +4,7 @@
 /* diffrent style file for components */
 
 @import url("./cards/cards.css");
+@import url("./alert/alert.css");
 @import url("./badge/badge.css");
 
 /* global variables */
