@@ -1,0 +1,67 @@
+:root {
+  --primary-btn-color: #6d28d9;
+  --primary-btn-hover-color: #8b5cf6;
+  --secondary-btn-color: #6d28d9;
+  --secondary-btn-hover-color: #fff;
+}
+
+.btn-section {
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
+.btn-primary {
+  background-color: var(--primary-btn-color);
+  color: white;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-btn-hover-color);
+}
+
+.btn-primary-hover {
+  background-color: var(--primary-btn-hover-color);
+}
+
+.btn-primary:disabled,
+.btn-primary[disabled] {
+  background-color: var(--primary-btn-color);
+  opacity: 40%;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--secondary-btn-color);
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid var(--secondary-btn-color);
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  color: var(--secondary-btn-hover-color);
+}
+
+.btn-secondary-hover {
+  color: var(--secondary-btn-hover-color);
+}
+
+.btn-secondary:disabled,
+.btn-secondary[disabled] {
+  /* background-color: var(--secondary-btn-color); */
+  color: var(--secondary-btn-color);
+  opacity: 40%;
+  cursor: not-allowed;
+}
