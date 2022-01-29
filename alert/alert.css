@@ -1,0 +1,10 @@
+.alert-layout {
+  display: grid;
+  gap: 1rem;
+}
+
+.alert {
+  border: 1px solid black;
+  padding: 1rem 1.3rem;
+  border-radius: 0.3rem;
+}
