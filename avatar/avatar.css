@@ -3,14 +3,14 @@
 }
 
 .avatar {
-  width: 150px;
+  width: 9rem;
   margin: auto;
   background: var(--avatar-bg-color);
 }
 
 .avatar img {
-  width: 150px;
-  height: 150px;
+  width: 9rem;
+  height: 9rem;
 }
 
 .avatar-1 {
