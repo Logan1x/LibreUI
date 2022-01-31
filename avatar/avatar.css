@@ -1,0 +1,27 @@
+.avatar {
+  width: 150px;
+  margin: auto;
+}
+
+.avatar img {
+  width: 150px;
+  height: 150px;
+}
+
+.avatar-1 {
+  background: rgb(194, 180, 207);
+  padding: 1.5rem;
+}
+
+.avatar-2 {
+  background: rgb(194, 180, 207);
+  padding: 1.5rem;
+  border-radius: 50%;
+}
+
+.avatar-3 {
+  background: rgb(194, 180, 207);
+  padding: 1.5rem;
+  border: 2px solid blueviolet;
+  border-radius: 0.3rem;
+}

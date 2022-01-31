@@ -7,6 +7,7 @@
 @import url("./alert/alert.css");
 @import url("./badge/badge.css");
 @import url("./button/button.css");
+@import url("./avatar/avatar.css");
 
 /* global variables */
 
@@ -36,6 +37,7 @@ html {
   box-shadow: 3px 2px 3px 0px #e8e5e3;
   border-radius: 0.4rem;
   padding: 1rem;
+  margin: 1rem;
 }
 
 .container-fluid {
