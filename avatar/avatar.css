@@ -1,6 +1,11 @@
+:root {
+  --avatar-bg-color: #c2b4cf;
+}
+
 .avatar {
   width: 150px;
   margin: auto;
+  background: var(--avatar-bg-color);
 }
 
 .avatar img {
@@ -9,18 +14,15 @@
 }
 
 .avatar-1 {
-  background: rgb(194, 180, 207);
   padding: 1.5rem;
 }
 
 .avatar-2 {
-  background: rgb(194, 180, 207);
   padding: 1.5rem;
   border-radius: 50%;
 }
 
 .avatar-3 {
-  background: rgb(194, 180, 207);
   padding: 1.5rem;
   border: 2px solid blueviolet;
   border-radius: 0.3rem;
