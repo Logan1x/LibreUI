@@ -1,0 +1,20 @@
+/* toast */
+
+:root {
+  --toast-color: #f1f5f9;
+}
+
+.toast-main {
+  position: relative;
+  min-height: 150px;
+}
+
+.toast {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: var(--toast-color);
+  padding: 1rem 0.5rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.1);
+}

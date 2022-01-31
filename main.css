@@ -5,6 +5,7 @@
 
 @import url("./cards/cards.css");
 @import url("./badge/badge.css");
+@import url("./toast/toast.css");
 
 /* global variables */
 
@@ -74,24 +75,7 @@ html {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* gap: 50px; */
 }
-
-/* badges */
-/* .relative {
-  position: relative;
-  width: 30px;
-  margin: 0.5rem;
-}
-.abs {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 0.8rem;
-  background-color: blueviolet;
-  color: white;
-  padding: 0.1rem;
-} */
 
 /* chips section */
 
@@ -158,49 +142,6 @@ html {
   background-color: rgb(159, 107, 207);
   color: #fff;
   filter: drop-shadow(0 0 0.75rem rgb(134, 123, 125));
-}
-
-/* toast */
-
-.toast-main {
-  position: relative;
-}
-
-.toast-heading {
-  background-color: blueviolet;
-  padding: 0.5rem;
-}
-
-.toast-content {
-  padding: 0.5rem 0.7rem;
-  position: relative;
-}
-
-.toast {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  z-index: 3;
-  background-color: black;
-  color: #fff;
-  margin: 0rem 0.5rem;
-  padding: 0.2rem 0.5rem;
-  border-radius: 0.15rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.toast p {
-  margin: 0.4rem 0.3rem;
-}
-
-.toast svg {
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  color: #334155;
-  border-radius: 50%;
-  margin: 0rem 0.2rem;
 }
 
 @media only screen and (max-width: 600px) {
