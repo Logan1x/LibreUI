@@ -1,0 +1,68 @@
+:root {
+  --primary-alert-text: #06b6d4;
+  --secondary-alert-text: #a855f7;
+  --success-alert-text: #22c55e;
+  --danger-alert-text: #ef4444;
+  --warning-alert-text: #f59e0b;
+  --light-alert-text: #64748b;
+  --dark-alert-text: #fafafa;
+  --primary-alert-background: #a5f3fc;
+  --secondary-alert-background: #e9d5ff;
+  --success-alert-background: #bbf7d0;
+  --danger-alert-background: #fecaca;
+  --warning-alert-background: #fde68a;
+  --light-alert-background: #e2e8f0;
+  --dark-alert-background: #111827;
+}
+
+.alert-layout {
+  display: grid;
+  gap: 1rem;
+}
+
+.alert {
+  padding: 1rem 1.3rem;
+  border-radius: 0.3rem;
+}
+
+.alert-primary {
+  background-color: var(--primary-alert-background);
+  color: var(--primary-alert-text);
+  border: 1px solid var(--primary-alert-text);
+}
+
+.alert-secondary {
+  background-color: var(--secondary-alert-background);
+  color: var(--secondary-alert-text);
+  border: 1px solid var(--secondary-alert-text);
+}
+
+.alert-success {
+  background-color: var(--success-alert-background);
+  color: var(--success-alert-text);
+  border: 1px solid var(--success-alert-text);
+}
+
+.alert-danger {
+  background-color: var(--danger-alert-background);
+  color: var(--danger-alert-text);
+  border: 1px solid var(--danger-alert-text);
+}
+
+.alert-warning {
+  background-color: var(--warning-alert-background);
+  color: var(--warning-alert-text);
+  border: 1px solid var(--warning-alert-text);
+}
+
+.alert-light {
+  background-color: var(--light-alert-background);
+  color: var(--light-alert-text);
+  border: 1px solid var(--light-alert-text);
+}
+
+.alert-dark {
+  background-color: var(--dark-alert-background);
+  color: var(--dark-alert-text);
+  border: 1px solid var(--dark-alert-text);
+}
