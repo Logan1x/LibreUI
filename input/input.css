@@ -1,0 +1,19 @@
+:root {
+  --hover-input-color: #31312f55;
+  --danger-input-color: #ff0000;
+}
+
+.input-box {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid;
+}
+
+.input-box:hover {
+  border: 2px solid var(--hover-input-color);
+}
+
+.input-box-error {
+  border: 1px solid var(--danger-input-color);
+}
