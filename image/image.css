@@ -1,0 +1,9 @@
+.imageRound {
+  border-radius: 50%;
+  margin: 0.5rem;
+}
+
+.imageSquare {
+  border-radius: 0.2rem;
+  margin: 0.5rem;
+}
