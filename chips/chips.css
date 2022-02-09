@@ -1,0 +1,20 @@
+/* chips section */
+
+:root {
+  --chips-bg: #8a2be2;
+}
+
+.chips-section {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chips {
+  background-color: var(--chips-bg);
+  color: var(--color-white);
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.4rem;
+}

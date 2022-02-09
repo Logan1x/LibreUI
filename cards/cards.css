@@ -59,3 +59,24 @@
 .card-btns:hover {
   opacity: 90%;
 }
+
+.cards-layout {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .card2 {
+    flex-wrap: wrap;
+    height: auto;
+    margin: 1rem;
+  }
+
+  .card2-img {
+    width: 100%;
+    /* object-fit: cover; */
+    /* padding: 1rem; */
+    /* border-radius: 50%; */
+  }
+}

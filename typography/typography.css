@@ -1,0 +1,40 @@
+:root {
+  --text-xl: 3rem;
+  --text-lg: 2rem;
+  --text-md: 1.5rem;
+  --text-sm: 1.25rem;
+  --text-xs: 1rem;
+}
+
+.typography-container {
+  display: grid;
+}
+
+.typography-container p {
+  margin: 0;
+}
+
+.text-xl {
+  font-size: var(--text-xl);
+  line-height: 1.25;
+}
+
+.text-lg {
+  font-size: var(--text-lg);
+  line-height: 1.5;
+}
+
+.text-md {
+  font-size: var(--text-md);
+  line-height: 1.75;
+}
+
+.text-sm {
+  font-size: var(--text-sm);
+  line-height: 2;
+}
+
+.text-xs {
+  font-size: var(--text-xs);
+  line-height: 2.25;
+}

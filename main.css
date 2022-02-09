@@ -12,19 +12,20 @@
 @import url("./avatar/avatar.css");
 @import url("./image/image.css");
 @import url("./input/input.css");
+@import url("./chips/chips.css");
+@import url("./colors/colors.css");
+@import url("./typography/typography.css");
 
 /* global variables */
 
 :root {
-  --primary-color: #f1f5f9;
-  --card-background: #e2e8f0;
-
-  /* new colors */
   --color-primary: #10b981;
   --color-secondary: #111827;
   --color-tertiary: #6b7280;
   --color-white: #ffffff;
   --color-background: #fafaf9;
+  --card-background: #e2e8f0;
+  --code-highlight-bg: #e5e7eb;
 }
 
 /* styling */
@@ -117,6 +118,10 @@ a:hover {
 
 .hero-title {
   font-family: "Arvo", serif;
+}
+
+.hero-title-highlight {
+  color: var(--color-primary);
 }
 
 .hero-subtitle {
@@ -266,81 +271,13 @@ footer .text-highlight a {
   color: blueviolet;
 }
 
-.cards-layout {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-/* chips section */
-
-.chips-section {
-  display: flex;
-  gap: 0.5rem;
-  margin: 0.5rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.chips {
-  background-color: blueviolet;
-  color: white;
-  padding: 0.5rem 0.7rem;
-  border-radius: 0.4rem;
-}
-
-/* drawer */
-
-.drawer-parent {
-  display: grid;
-  grid-template-columns: 150px 1fr;
-  min-height: 100vh;
-  overflow: none;
-}
-
-.drawer-main {
-  background-color: white;
-}
-
-.drawer-heading {
-  background-color: blueviolet;
-  padding: 0.5rem;
-}
-
-.drawer-content {
-  padding: 0.5rem 0.7rem;
-  height: 90vh;
-  overflow: scroll;
-}
-
-.drawer-styling {
-  padding: 0.5rem 0.7rem;
-  margin: 0.2rem;
-}
-
-.drawer-styling:hover {
-  background-color: rgb(159, 107, 207);
-  color: #fff;
-  filter: drop-shadow(0 0 0.75rem rgb(134, 123, 125));
+.code-highlight {
+  font-family: monospace;
+  background-color: var(--code-highlight-bg);
+  padding: 0rem 0.2rem;
 }
 
 @media only screen and (max-width: 600px) {
-  .card2 {
-    flex-wrap: wrap;
-    height: auto;
-    margin: 1rem;
-  }
-
-  .card2-img {
-    width: 100%;
-    /* object-fit: cover; */
-    /* padding: 1rem; */
-    /* border-radius: 50%; */
-  }
-
-  .drawer-parent {
-    grid-template-columns: 1fr;
-  }
   .container-doc {
     margin: auto;
     grid-template-columns: 1fr;
@@ -351,7 +288,15 @@ footer .text-highlight a {
       "footer";
   }
 
+  .hero-title {
+    font-size: 2rem;
+  }
+
   aside {
     display: none;
+  }
+
+  iframe {
+    width: 350px;
   }
 }
