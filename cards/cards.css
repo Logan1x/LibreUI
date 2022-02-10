@@ -1,6 +1,5 @@
 /* cards */
 .card {
-  /* border: 1px solid black; */
   background-color: #fff;
   border-radius: 4px;
   text-align: left;
@@ -20,7 +19,6 @@
 
 .card2 {
   display: flex;
-  /* flex-wrap: wrap; */
   width: 550px;
   height: 300px;
 }
@@ -58,4 +56,22 @@
 
 .card-btns:hover {
   opacity: 90%;
+}
+
+.cards-layout {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .card2 {
+    flex-wrap: wrap;
+    height: auto;
+    margin: 1rem;
+  }
+
+  .card2-img {
+    width: 100%;
+  }
 }

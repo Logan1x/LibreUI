@@ -1,0 +1,8 @@
+.intro-content {
+  text-align: left;
+  margin: 0rem 1.5rem;
+}
+
+.text-highlight {
+  color: var(--color-primary);
+}

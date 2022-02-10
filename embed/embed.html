@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embed | Libre UI</title>
+    <link rel="stylesheet" href="https://libreui.netlify.app/main.css" />
+  </head>
+  <body></body>
+</html>
+
+<!-- custom styling -->
+
+<button class="btn btn-primary custom-style">Primary Button</button>
+
+<!-- Custom class styling -->
+<style>
+  .custom-style {
+    color: black;
+    background-color: pink;
+  }
+</style>
+
+<!--Alerts -->
+<div class="alert-container">
+  <div class="alert alert-primary">This is a primary alert—check it out!</div>
+  <div class="alert alert-secondary">
+    This is a secondary alert—check it out!
+  </div>
+  <div class="alert alert-success">This is a success alert—check it out!</div>
+  <div class="alert alert-danger">This is a danger alert—check it out!</div>
+  <div class="alert alert-warning">This is a warning alert—check it out!</div>
+  <div class="alert alert-light">This is a light alert—check it out!</div>
+  <div class="alert alert-dark">This is a dark alert—check it out!</div>
+</div>
+
+<!-- Avatars     -->
+
+<p>Avatar Square</p>
+<div class="avatar avatar-1">
+  <img src="url of the image" alt="Avatar" />
+</div>
+<p>Avatar Round</p>
+<div class="avatar avatar-2">
+  <img src="url of the image" alt="Avatar" />
+</div>
+<p>Avatar Square with Border</p>
+<div class="avatar avatar-3">
+  <img src="url of the image" alt="Avatar" />
+</div>
+
+<!-- Badges     -->
+
+<div class="badge-1">
+  <div>Alert</div>
+  <span class="badge">42</span>
+</div>
+<div class="badge-2">
+  <button>Jobs</button>
+  <span class="badge">42</span>
+</div>
+
+<!--  Buttons    -->
+<button class="btn btn-primary mx-2">Primary</button>
+<button class="btn btn-primary btn-primary-hover mx-2">Primary</button>
+
+<button class="btn btn-primary mx-2" disabled>Primary</button>
+
+<button class="btn btn-secondary mx-2">secondary</button>
+<button class="btn btn-secondary btn-secondary-hover mx-2">secondary</button>
+
+<button class="btn btn-secondary mx-2" disabled>secondary</button>
+
+<!-- Image -->
+
+<!-- Hero image -->
+<img class="heroImage" src="https://picsum.photos/700/300" alt="Hero Image" />
+<!-- Image Round -->
+<img class="imageRound" src="https://picsum.photos/200/200" alt="Image Round" />
+<!-- Image Square -->
+<img
+  class="imageSquare"
+  src="https://picsum.photos/200/200"
+  alt="Image Square"
+/>
+
+<!-- Input     -->
+<!-- input box -->
+<input class="input-box" type="text" placeholder="Enter your name" />
+<input
+  class="input-box input-box-hover"
+  type="text"
+  placeholder="Enter your name"
+/>
+<input class="input-box" type="text" placeholder="Enter your name" disabled />
+
+<!-- error input -->
+<input
+  class="input-box input-box-error"
+  type="text"
+  placeholder="Enter your name"
+/>
+
+<!--     Cards -->
+
+<div class="cards-layout">
+  <!-- card1 -->
+  <div class="card card1">
+    <img src="imageurl" class="card1-img" alt="card image" />
+    <h2 class="card-text">Card 1</h2>
+    <p class="card-text"></p>
+  </div>
+
+  <!-- card2  -->
+  <div class="card card2">
+    <div>
+      <img src="imageurl" class="card2-img" alt="card image" />
+    </div>
+
+    <div class="flex justify-around card-text-right">
+      <p class="card-text"></p>
+    </div>
+  </div>
+</div>
+
+<!-- Navigation -->
+
+<div class="display-component">
+  <nav class="nav-simple-container">
+    <div class="nav-simple-brand">
+      <a href="url" class="nav-simple-brand nav-simple-item">My Website</a>
+    </div>
+    <ul>
+      <li class="nav-simple-item">
+        <a href="url" class="nav-simple-item">Home</a>
+      </li>
+      <li class="nav-simple-item">
+        <a href="url" class="nav-simple-item">Products</a>
+      </li>
+      <li class="nav-simple-item">
+        <a href="url" class="nav-simple-item">Cart</a>
+      </li>
+      <li class="nav-simple-item">
+        <a href="url" class="nav-simple-item">Settings</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div class="display-component">
+  <div class="display-component">
+    <nav class="nav-simple-container">
+      <div class="nav-simple-brand">
+        <a href="url" class="nav-simple-brand nav-simple-item">My Website</a>
+      </div>
+      <ul>
+        <li class="nav-simple-item">
+          <a href="url" class="nav-simple-item">
+            <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-simple-item">
+          <a href="url" class="nav-simple-item">
+            <i class="fa fa-home fa-lg" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-simple-item badge">
+          <a href="url" class="nav-simple-item">
+            <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+            <span class="badge-icon badge-number badge-right badge-lg">9</span>
+          </a>
+        </li>
+        <li class="nav-simple-item">
+          <a href="url" class="nav-simple-item">
+            <i class="fa fa-gear fa-lg" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<!-- Rating -->
+<div class="default-rating">
+  <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+  <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+  <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+  <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+  <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+</div>
+
+<!-- Toasts -->
+<div class="toast-main">
+  <div class="toast">
+    <div class="toast-body">Hello, world! This is a toast message.</div>
+  </div>
+</div>
+
+<!-- Grid  -->
+<div class="grid grid-50-50">
+  <div>
+    <img
+      src="https://picsum.photos/id/110/600/400"
+      alt="sunset"
+      class="img-responsive"
+    />
+  </div>
+  <div>
+    <h4 class="heading4">Lorem Ipsum</h4>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio ipsa
+      sequi eius in. Animi autem ullam ea voluptatibus, reprehenderit suscipit
+      sint quos, totam reiciendis beatae expedita maxime
+    </p>
+  </div>
+</div>
+
+<div class="display-component">
+  <div class="grid grid-30-70">
+    <div>
+      <img
+        src="https://picsum.photos/id/110/600/400"
+        alt="sunset"
+        class="img-responsive"
+      />
+    </div>
+    <div>
+      <h5 class="heading5">Lorem Ipsum</h5>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
+        ipsa sequi eius in. Animi autem ullam ea voluptatibus, reprehenderit
+        suscipit sint quos, totam reiciendis beatae expedita maxime repellat
+        nobis
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="display-component">
+  <div class="grid grid-3-column">
+    <div>
+      <img
+        src="https://picsum.photos/id/110/600/400"
+        alt="sunset"
+        class="img-responsive"
+      />
+    </div>
+    <div>
+      <img
+        src="https://picsum.photos/id/110/600/400"
+        alt="sunset"
+        class="img-responsive"
+      />
+    </div>
+    <div>
+      <img
+        src="https://picsum.photos/id/110/600/400"
+        alt="sunset"
+        class="img-responsive"
+      />
+    </div>
+  </div>
+</div>
+
+<div class="display-component">
+  <div class="default-slider">
+    <i class="fas fa-volume-mute fa-lg"></i>
+    <input type="range" min="1" max="100" />
+    <i class="fas fa-volume-up fa-lg"></i>
+  </div>
+</div>
+
+<!-- Chips -->
+<section class="chips-section">
+  <div class="chips">Elephant</div>
+  <div class="chips">Horse</div>
+  <div class="chips">Beer</div>
+  <div class="chips">Dog</div>
+  <div class="chips">Cat</div>
+  <div class="chips">Snake</div>
+</section>
+
+<!-- Tabs -->
+
+<div class="tab-default">
+  <a href="#" class="tab-link"> TABONE</a>
+</div>
+<div class="tab-default">
+  <a href="#" class="tab-link"> TABTWO</a>
+</div>
+<div class="tab-default">
+  <a href="#" class="tab-link"> TABTHREE</a>
+</div>
+
+<div class="display-component flex-row-center">
+  <div class="tab-icon-left">
+    <i class="fa fa-heart"></i>
+    <a href="#" class="tab-link"> TABONE</a>
+  </div>
+  <div class="tab-icon-left">
+    <i class="fa fa-filter"></i>
+    <a href="#" class="tab-link"> TABTWO</a>
+  </div>
+  <div class="tab-icon-left">
+    <i class="fa fa-share"></i>
+    <a href="#" class="tab-link"> TABTHREE</a>
+  </div>
+</div>
+
+<div class="display-component flex-row-center">
+  <div class="tab-icon-top">
+    <i class="fa fa-heart"></i>
+    <a href="#" class="tab tab-link"> TABONE</a>
+  </div>
+  <div class="tab-icon-top">
+    <i class="fa fa-filter"></i>
+    <a href="#" class="tab-link"> TABTWO</a>
+  </div>
+  <div class="tab-icon-top">
+    <i class="fa fa-share"></i>
+    <a href="#" class="tab-link"> TABTHREE</a>
+  </div>
+</div>
