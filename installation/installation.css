@@ -6,7 +6,3 @@
 .text-highlight {
   color: var(--color-primary);
 }
-
-.code-snippet {
-  overflow-x: scroll;
-}
