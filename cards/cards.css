@@ -1,6 +1,5 @@
 /* cards */
 .card {
-  /* border: 1px solid black; */
   background-color: #fff;
   border-radius: 4px;
   text-align: left;
@@ -20,7 +19,6 @@
 
 .card2 {
   display: flex;
-  /* flex-wrap: wrap; */
   width: 550px;
   height: 300px;
 }
@@ -75,8 +73,5 @@
 
   .card2-img {
     width: 100%;
-    /* object-fit: cover; */
-    /* padding: 1rem; */
-    /* border-radius: 50%; */
   }
 }
