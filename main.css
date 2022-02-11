@@ -17,6 +17,7 @@
 @import url("./typography/typography.css");
 @import url("./grid/grid.css");
 @import url("./modal/modal.css");
+@import url("./navigation/navigation.css");
 
 /* global variables */
 
@@ -74,7 +75,7 @@ a:hover {
 }
 
 .code-snippet {
-  overflow-x: scroll;
+  scroll-x: auto;
 }
 
 /* navbar */
@@ -83,14 +84,15 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0rem 1rem;
+  margin: 1rem;
   background: var(--color-background);
   color: var(--color-secondary);
   grid-area: header;
+  font-size: 1.1rem;
 }
 
 .nav-title {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   cursor: pointer;
 }
 
