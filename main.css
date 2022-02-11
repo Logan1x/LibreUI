@@ -292,6 +292,10 @@ footer .text-highlight a {
       "footer";
   }
 
+  .nav {
+    font-size: 1rem;
+  }
+
   .hero-title {
     font-size: 2rem;
   }
