@@ -1,0 +1,16 @@
+.rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--warning-alert-text);
+  font-size: 1.5rem;
+}
+.rating-container input {
+  display: none;
+}
+.rating-container label {
+  cursor: pointer;
+}
+.rating-container input:checked + label ~ label {
+  color: black;
+}
