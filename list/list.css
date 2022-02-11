@@ -1,0 +1,11 @@
+.list-stacked-layout {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.list-stacked {
+  list-style: none;
+  padding: 1rem;
+  background-color: var(--color-background);
+  border-radius: 0.3rem;
+}
