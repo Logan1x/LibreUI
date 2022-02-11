@@ -1,0 +1,15 @@
+.navbar-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 1rem;
+  padding: 0.9rem;
+  border-radius: 0.3rem;
+  background: var(--color-background);
+  color: var(--color-secondary);
+}
+
+.navbar-component-pills {
+  display: flex;
+  gap: 0.5rem;
+}
