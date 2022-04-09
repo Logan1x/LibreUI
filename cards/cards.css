@@ -5,6 +5,8 @@
   text-align: left;
   width: 250px;
   margin: 0.3rem;
+  box-shadow: 1px 1px 5px 0px #A0979E;
+  position: relative;
 }
 
 .card-text {
@@ -61,7 +63,31 @@
 .cards-layout {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
+}
+
+
+.card-text-overlay{
+  position: relative;
+}
+
+.card-text-heading{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0rem 0.5rem;
+  color: var(--color-white);
+
+}
+
+.card-badge{
+  position: absolute;
+  background-color: yellow;
+  top: 0;
+  padding: 0.1rem;
+  border-top-right-radius: 0.1rem;
+  border-bottom-right-radius: 0.1rem;
 }
 
 @media only screen and (max-width: 600px) {
