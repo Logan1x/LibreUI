@@ -30,6 +30,18 @@
   color: white;
 }
 
+.badge-3{
+  position: relative;
+
+}
+
+.badge-img{
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
 .badge {
   position: absolute;
   top: 0;

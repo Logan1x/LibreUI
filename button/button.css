@@ -61,3 +61,10 @@
   opacity: 40%;
   cursor: not-allowed;
 }
+
+.btn-floating{
+  border: 1px solid var(--secondary-btn-color);
+  border-radius: 50%;
+  background-color: var(--primary-btn-color);
+  color: var(--secondary-btn-hover-color);
+}
